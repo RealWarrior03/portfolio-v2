@@ -1,0 +1,39 @@
+# Temporary ignored files
+database/
+database.json
+
+# Node dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Optional npm cache directory
+.npm/
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
