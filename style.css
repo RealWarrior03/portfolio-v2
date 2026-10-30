@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* Elements marked with the `hidden` attribute (e.g. unreleased app cards) stay invisible */
+[hidden] {
+    display: none !important;
+}
+
 :root {
     --apple-blue: #0071e3;
     --apple-text: #1d1d1f;
